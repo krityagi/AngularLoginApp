@@ -10,5 +10,5 @@ RUN npm audit
 RUN npm cache verify
 RUN npm install
 COPY . /usr/src/app
-EXPOSE 8081
+EXPOSE 4200
 CMD ["npm","start"]
