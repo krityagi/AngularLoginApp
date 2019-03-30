@@ -12,3 +12,4 @@ RUN npm install
 COPY . /usr/src/app
 EXPOSE 8081
 CMD ["npm","start"]
+ECHO HELLO
