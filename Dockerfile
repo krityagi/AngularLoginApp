@@ -1,7 +1,7 @@
 FROM node:8.9
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-COPY src/test.ts /usr/src/app
+COPY package.json /usr/src
 RUN npm i npm@latest -g
 RUN npm i --package-lock-only
 RUN npm audit fix
