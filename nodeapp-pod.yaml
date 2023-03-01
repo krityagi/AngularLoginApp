@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: nodeapp
-      image: krishnu121/testimage:frsttry
+      image: krishnu121/testimage:test
       ports:
         - containerPort: 80
